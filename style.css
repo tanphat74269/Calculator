@@ -1,0 +1,37 @@
+/* Các nút bấm */
+#nutbam {
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#nutbam .nut {
+    border: 1px solid #333;
+    padding: 15px;
+    cursor: pointer;
+}
+#nutbam .nut:hover {
+    background-color: rgb(69, 215, 69);
+}
+
+/* Màn hình */
+#maytinh {
+    border: 3px solid #333;
+    width: 158px;
+}
+#manhinh {
+    border: 1px solid #333;
+    width: 158px;
+}
+#manhinh .pheptinh {
+    height: 25px;
+    border-bottom: 1px solid #333;
+}
+#manhinh .ketqua {
+    height: 25px;
+}
+#manhinh .ketqua {
+    float: right;
+    color: red;
+    border-right: 1px solid #333;
+
+}

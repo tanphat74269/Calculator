@@ -54,13 +54,13 @@ switch ($cal) {
         <!-- Các nút bấm -->
         <div id="nutbam">
             <div class="nut" style="padding: 6px; line-height: 28px" onclick="resetData()">Xóa</div>
-            <div class="nut" value="0" onclick="setValue(0)">0</div>
+            <div class="nut" value="0" style="padding-right: 14px;" onclick="setValue(0)">0</div>
             <div class="nut" value="+" onclick="setPhepTinh('+')">+</div>
-            <div class="nut" value="-" style="padding-right: 17px"  onclick="setPhepTinh('-')">-</div>
+            <div class="nut" value="-" style="padding-right: 18px"  onclick="setPhepTinh('-')">-</div>
             <div class="nut" value="7" onclick="setValue(7)">7</div>
             <div class="nut" value="8" onclick="setValue(8)">8</div>
             <div class="nut" value="9" onclick="setValue(9)">9</div>
-            <div class="nut" value="*" onclick="setPhepTinh('*')">*</div>
+            <div class="nut" value="*" style="padding-right: 17px" onclick="setPhepTinh('*')">*</div>
             <div class="nut" value="4" onclick="setValue(4)">4</div>
             <div class="nut" value="5" onclick="setValue(5)">5</div>
             <div class="nut" value="6" onclick="setValue(6)">6</div>

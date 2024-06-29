@@ -23,7 +23,11 @@ switch ($cal) {
         $result = $a * $b;
         break;
     case '/':
-        $result = $a / $b;
+        if(is_int($a / $b)) { // Nếu là số nguyên
+            $result = $a / $b;
+        } else {
+            $result = round($a / $b, 5); // Nếu là số thập phân thì làm tròn 5 chữ số sau dấu phẩy
+        }
         break;
     case '%':
         $result = $a % $b;

@@ -1,5 +1,5 @@
 <?php
-require_once('calculate.php');
+require_once('xulypheptinh.php');
 ?>
 
 <!DOCTYPE html>
@@ -8,8 +8,8 @@ require_once('calculate.php');
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./favicon.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="icon" href="./favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>Calculator</title>
 </head>
@@ -40,7 +40,7 @@ require_once('calculate.php');
         </div>
         <div>
             <button class="btn" onclick="setValue(4)">4</button>
-            <button class="btn"onclick="setValue(5)">5</button>
+            <button class="btn" onclick="setValue(5)">5</button>
             <button class="btn" onclick="setValue(6)">6</button>
             <button class="btn" onclick="setPhepTinh('x')">x</button>
         </div>
@@ -50,7 +50,6 @@ require_once('calculate.php');
             <button class="btn" onclick="setValue(3)">3</button>
             <button class="btn" onclick="setPhepTinh('-')">-</button>
         </div>
-
         <div>
             <button class="btn" onclick="setValue(0)">0</button>
             <button class="btn">.</button>
@@ -58,6 +57,7 @@ require_once('calculate.php');
             <button class="btn" onclick="setPhepTinh('+')">+</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <!-- Các hàm xử lý nút bấm -->
+    <script src="function.js"></script> 
 </body>
 </html>
